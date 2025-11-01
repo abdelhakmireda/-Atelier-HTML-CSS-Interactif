@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Atelier HTML & CSS — by Abdelhakmi Reda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>🎨 Atelier HTML & CSS Interactif</h1>
+    <p class="subtitle">Apprends en pratiquant — créé par <strong>Abdelhakmi Reda</strong></p>
+
+    <div id="progress">
+      <div id="progressBar"></div>
+    </div>
+    <div class="task" id="task">Clique sur "Nouvel exercice" pour commencer.</div>
+
+    <div class="buttons">
+      <button onclick="generateExercise()">🎯 Nouvel exercice</button>
+      <button onclick="runCode()">▶️ Afficher le rendu</button>
+      <button onclick="checkCode()">✅ Vérifier le code</button>
+      <button onclick="showHint()">💡 Indice</button>
+      <button id="solutionBtn" onclick="showSolution()" disabled>🧠 Solution</button>
+      <button onclick="toggleHelp()">📘 Aide</button>
+      <button onclick="toggleTheme()">🌓 Thème</button>
+    </div>
+
+    <textarea id="editor" placeholder="Écris ton code HTML ici..."></textarea>
+
+    <h3>Prévisualisation :</h3>
+    <iframe id="previewFrame"></iframe>
+
+    <div id="feedback"></div>
+    <div id="hintArea"></div>
+    <div id="helpArea"></div>
+
+    <div class="scoreboard">
+      <span id="score">Score : 0</span>
+      <span id="timer">⏱ Temps : 0s</span>
+    </div>
+
+    <canvas id="celebrationCanvas"></canvas>
+  </main>
+
+  <footer>
+    © 2025 — Créé par <strong>Abdelhakmi Reda</strong> | Atelier Interactif HTML & CSS
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.0.5/dist/purify.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
