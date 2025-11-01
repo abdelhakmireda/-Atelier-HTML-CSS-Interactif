@@ -1,6 +1,4 @@
 
-
-````markdown
 # 🎨 Atelier HTML & CSS Interactif
 
 Bienvenue dans **l’atelier HTML & CSS interactif** développé par **Abdelhakmi Reda**.  
@@ -92,15 +90,4 @@ Ce projet est sous licence **MIT** 📝
 * Parfait pour **débutants** et pour **s’entraîner de manière interactive**
 * Peut être facilement étendu avec de nouveaux exercices, styles et fonctionnalités 🎉
 
-```
 
----
-
-Si tu veux, je peux aussi te créer une **version “README visuel” avec badges GitHub** pour rendre ton repo **ultra attractif** 🏆🚀 avec :  
-
-- Badge de version  
-- Badge de licence MIT  
-- Badge “Made with ❤️ HTML & CSS & JS”  
-
-Veux‑tu que je fasse cette version ?
-```
